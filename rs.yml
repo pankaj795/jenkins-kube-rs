@@ -5,7 +5,7 @@ metadata:
 spec: 
   replicas: 3
   selector:
-     matchLabels:
+     matchLabel:
          env: production
     #matchExpressions:
      # - { key: env,  operator: In,  values: [ production ] }
